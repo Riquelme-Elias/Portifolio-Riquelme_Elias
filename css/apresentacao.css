@@ -1,0 +1,27 @@
+.apresentacao {
+    display: flex;
+}
+
+.apresentacao-div {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.apresentacao-titulo {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.apresentacao-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.apresentacao-rede {
+    text-decoration: none;
+    color: inherit;
+}

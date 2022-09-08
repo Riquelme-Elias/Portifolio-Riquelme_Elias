@@ -1,0 +1,44 @@
+:root {
+    --branco: #F5F5F5;
+    --branco-azul: #EAF2FD;
+    --fonte: 'Raleway', sans-serif;
+}
+
+body {
+    background: var(--branco);
+    font-family: var(--fonte);
+}
+
+.containe{
+    padding: 0 2rem;
+}
+
+.sobre-mim {
+    background: var(--branco-azul);
+    height: 100px;
+}
+
+.skills {
+    height: 100px;
+}
+
+.hobbies {
+    height: 100px;
+}
+
+.formacao {
+    height: 100px;
+}
+
+.experiencia {
+    height: 100px;
+}
+
+.contato {
+    height: 100px;
+    background: var(--branco-azul);
+}
+
+.rodape {
+    height: 100px;
+}

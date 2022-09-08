@@ -1,0 +1,24 @@
+.cabecalho {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho-nome {
+    font-weight: 600;
+}
+
+.cabecalho-div {
+    width: 60%;
+}
+
+.cabecalho-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho-navegacao-item {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+}
