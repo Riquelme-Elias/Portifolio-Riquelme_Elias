@@ -1,18 +1,19 @@
 .apresentacao {
     display: flex;
+    align-items: center;
 }
 
 .apresentacao-div {
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 70%;
     height: 200px;
     justify-content: space-around;
 }
 
 .apresentacao-titulo {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .apresentacao-nav {
@@ -24,4 +25,10 @@
 .apresentacao-rede {
     text-decoration: none;
     color: inherit;
+}
+
+.apresentacao-img {
+    border-radius: 100%;
+    height: 270px;
+    margin-left: 0.5rem;
 }
