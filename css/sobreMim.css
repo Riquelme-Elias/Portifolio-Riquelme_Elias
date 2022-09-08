@@ -1,0 +1,11 @@
+.sobreMim {
+    background: var(--branco-azul);
+    padding: 4rem 2rem;
+}
+
+.sobreMim-texto {
+    width: 60%;
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 400;
+}

@@ -1,21 +1,23 @@
 :root {
     --branco: #F5F5F5;
     --branco-azul: #EAF2FD;
+    --cinza-escuro: #464646;
     --fonte: 'Raleway', sans-serif;
 }
 
 body {
     background: var(--branco);
     font-family: var(--fonte);
+    color: var(--cinza-escuro);
 }
 
 .containe{
     padding: 0 2rem;
 }
 
-.sobre-mim {
-    background: var(--branco-azul);
-    height: 100px;
+.titulos-sections {
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 .skills {
