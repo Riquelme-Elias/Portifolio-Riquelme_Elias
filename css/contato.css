@@ -3,6 +3,10 @@
     background: var(--branco-azul);
 }
 
+.contato-divisao {
+    display: flex;
+}
+
 .contato-mensagem-erro {
     display: none;
 }
