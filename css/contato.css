@@ -1,21 +1,88 @@
 .contato {
     display: flex;
     background: var(--branco-azul);
+    padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 
 .contato-divisao {
     display: flex;
+    width: 100%;
+}
+
+fieldset {
+    display: contents;
 }
 
 .contato-mensagem-erro {
     display: none;
 }
 
-label {
-    display: none;
-}
-
 .contato-legenda {
     font-weight: 400;
     font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.contato-label {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    transition: all .25s;
+}
+
+.contato-input {
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+} 
+
+
+.input {
+    font-family: var(--fonte);
+    font-size: 1rem;
+    color: var(--cinza-escuro);
+    border: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 3.25rem;
+    width: 100%;
+}
+
+input::placeholder {
+    visibility: hidden;
+}
+
+.input-assunto::placeholder {
+    font-size: 1rem;
+    font-family: var(--fonte);
+}
+
+.input-mensagem::placeholder {
+    font-size: 1rem;
+    font-family: var(--fonte);
+    color: var(--cinza-escuro);
+}
+
+.input:focus {
+    outline: none;
+    border-bottom: 2px solid var(--azul-claro);
+}
+
+.input:not(:placeholder-shown) + .contato-label, .input:focus + .contato-label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all .25s;
+}
+
+.contato-img {
+    width: 40%;
+}
+
+.contato-formulario {
+    width: 60%;
 }

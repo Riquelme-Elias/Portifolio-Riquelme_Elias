@@ -113,11 +113,11 @@
         </section>
         <section id="section-contato" class="containe contato">
             <div class="contato-divisao">
-                <img src="./img/call_communication_phone_telephone_icon_127214.png" alt="">
-                <form action="" class="formulario flex flex--coluna">
+                <img class="contato-img" src="./img/call_communication_phone_telephone_icon_127214.png" alt="">
+                <form action="" class="contato-formulario flex flex--coluna">
                     <h2 class="titulos-sections">Contato</h2>
                     <fieldset>
-                        <legend class="contato-legenda">Quer entrar em contato?</legend>
+                        <legend class="contato-legenda">Quer entrar em contato?<p>Prencha o formulário e eu entrarei em contato o quanto antes.</p></legend>
                         <div class="contato-input">
                             <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome"
                                 required>
@@ -131,15 +131,13 @@
                             <span class="contato-mensagem-erro">Este campo não está válido</span>
                         </div>
                         <div class="contato-input">
-                            <input name="assunto" id="assunto" class="input" type="text" placeholder="Assunto"
+                            <input name="assunto" id="assunto" class="input input-assunto" type="text" placeholder="Assunto"
                                 data-tipo="assunto" required>
-                            <label class="contato-label" for="assunto">Assunto</label>
                             <span class="contato-mensagem-erro">Este campo não está válido</span>
                         </div>
                         <div class="contato-input">
-                            <textarea name="mensagem" id="mensagem" class="input" type="text" placeholder="Mensagem"
+                            <textarea name="mensagem" id="mensagem" class="input input-mensagem" type="text" placeholder="Mensagem"
                                 data-tipo="mensagem" required></textarea>
-                            <label class="contato-label" for="mensagem">Mensagem</label>
                             <span class="contato-mensagem-erro">Este campo não está válido</span>
                         </div>
                     </fieldset>
