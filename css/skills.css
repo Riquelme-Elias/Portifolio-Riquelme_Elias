@@ -1,0 +1,29 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-area {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.skills-itens {
+    display: flex;
+    background: var(--branco);
+    height: 140px;
+    width: 140px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.skills-icon {
+    width: auto;
+    height: 50px;
+    margin-left: 0.75rem;
+}
+
+.skills-legens {
+    margin: 0.75rem 1rem;
+}

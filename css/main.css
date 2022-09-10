@@ -1,12 +1,13 @@
 :root {
-    --branco: #F5F5F5;
+    --branco: #FFFFFF;
+    --branco-cinza: #F5F5F5;
     --branco-azul: #EAF2FD;
     --cinza-escuro: #464646;
     --fonte: 'Raleway', sans-serif;
 }
 
 body {
-    background: var(--branco);
+    background: var(--branco-cinza);
     font-family: var(--fonte);
     color: var(--cinza-escuro);
 }
@@ -20,10 +21,6 @@ body {
     font-size: 1.5rem;
 }
 
-.skills {
-    height: 100px;
-}
-
 .hobbies {
     height: 100px;
 }
@@ -34,9 +31,4 @@ body {
 
 .experiencia {
     height: 100px;
-}
-
-.contato {
-    height: 100px;
-    background: var(--branco-azul);
 }
