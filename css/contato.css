@@ -1,0 +1,17 @@
+.contato {
+    display: flex;
+    background: var(--branco-azul);
+}
+
+.contato-mensagem-erro {
+    display: none;
+}
+
+label {
+    display: none;
+}
+
+.contato-legenda {
+    font-weight: 400;
+    font-size: 1rem;
+}
