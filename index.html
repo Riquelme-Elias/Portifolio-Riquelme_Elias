@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="./css/cabecalho.css">
     <link rel="stylesheet" href="./css/apresentacao.css">
     <link rel="stylesheet" href="./css/sobreMim.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/hobbies.css">
+    <link rel="stylesheet" href="./css/formacao.css">
+    <link rel="stylesheet" href="./css/experiencias.css">
+    <link rel="stylesheet" href="./css/contato.css">
     <link rel="stylesheet" href="./css/rodape.css">
 </head>
 
@@ -42,41 +47,105 @@
                 <nav class="apresentacao-nav">
                     <a href="https://github.com/Riquelme-Elias" class="apresentacao-rede" target="_blank">Github ↗️</a>
                     <a href="#" class="apresentacao-rede" target="_blank">Linkedin ↗️</a>
-                    <a href="https://instagram.com/riquelme.elias.15" class="apresentacao-rede" target="_blank">Instagram ↗️</a>
-                    <a href="https://twitter.com/RiquelmeElias5" class="apresentacao-rede" target="_blank">twitter ↗️</a>
+                    <a href="https://instagram.com/riquelme.elias.15" class="apresentacao-rede"
+                        target="_blank">Instagram ↗️</a>
+                    <a href="https://twitter.com/RiquelmeElias5" class="apresentacao-rede" target="_blank">twitter
+                        ↗️</a>
                     <a href="#" class="apresentacao-rede" target="_blank">Curriculo ↗️</a>
                 </nav>
             </div>
-                <img src="https://avatars.githubusercontent.com/u/101952609?v=4" alt="" class="apresentacao-img">
+            <img src="https://avatars.githubusercontent.com/u/101952609?v=4" alt="" class="apresentacao-img">
         </section>
         <section id="section-sobreMim" class="containe titulos-sections sobreMim">
             <h1 class="sobreMim-titulo">Sobre mim</h1>
-            <p class="sobreMim-texto">rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-                rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-                rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-                rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+            <p class="sobreMim-texto">Olá, sou o Riquelme Lopes, tenho 20 anos e moro em Tapauá, interior do Estado do
+                Amazonas no Brasil.
+                Estudo Superior Tecnólogo em Analises e Desenvolvimento de Sistemas.
+                Tenho formação de Iniciante em Programação, Front End e Java e Orientação a Objetos na Alura e no
+                projeto ONE - oracle next education.
+                Ainda estudo muito sobre programação, especialmente na zona de Front End. Sou bom em organizar meus
+                trabalhos e responsabilidades,
+                e sou considerado por outros como uma pessoa bastante sociável e amigável.
             </p>
 
         </section>
-        <section id="section-skills" class="containe titulos-sections skills">
-            <h2>Skills</h2>
+        <section id="section-skills" class="containe skills">
+            <h2 class="titulos-sections">Skills</h2>
+            <div class="skills-area">
+                <div class="skills-itens">
+                    <figure>
+                        <img src="./img/html5_18891.png" class="skills-icon" alt="">
+                        <legend class="skills-legens">HTML 5</legend>
+                    </figure>
+                </div>
+                <div class="skills-itens">
+                    <figure>
+                        <img src="./img/javascript_icon_130900.png" class="skills-icon" alt="">
+                        <legend class="skills-legens">Javascript</legend>
+                    </figure>
+                </div>
+                <div class="skills-itens">
+                    <figure>
+                        <img src="./img/css_original_logo_icon_146575.png" class="skills-icon" alt="">
+                        <legend class="skills-legens">CSS 3</legend>
+                    </figure>
+                </div>
+                <div class="skills-itens">
+                    <figure>
+                        <img src="./img/java_original_wordmark_logo_icon_146459.png" class="skills-icon" alt="">
+                        <legend class="skills-legens">Java</legend>
+                    </figure>
+                </div>
+            </div>
 
         </section>
-        <section id="section-hobbies" class="containe titulos-sections hobbies">
-            <h2>Hobbies</h2>
+        <section id="section-hobbies" class="containe hobbies">
+            <h2 class="titulos-sections">Hobbies</h2>
 
         </section>
-        <section id="section-formacoes" class="containe titulos-sections formacao">
-            <h2>Formação Acadêmica</h2>
+        <section id="section-formacoes" class="containe formacao">
+            <h2 class="titulos-sections">Formação Acadêmica</h2>
 
         </section>
-        <section id="section-projetos" class="containe titulos-sections experiencia">
-            <h2>Experiencia Proficional</h2>
+        <section id="section-projetos" class="containe experiencia">
+            <h2 class="titulos-sections">Experiencia Proficional</h2>
 
         </section>
-        <section id="section-contato" class="containe titulos-sections contato">
-            <h2>Contato</h2>
-
+        <section id="section-contato" class="containe contato">
+            <div>
+                <img src="" alt="">
+                <form action="" class="formulario flex flex--coluna">
+                    <h2 class="titulos-sections">Contato</h2>
+                    <fieldset>
+                        <legend class="contato-legenda">Quer entrar em contato?</legend>
+                        <div class="contato-input">
+                            <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome"
+                                required>
+                            <label class="contato-label" for="nome">Nome</label>
+                            <span class="contato-mensagem-erro">Este campo não está válido</span>
+                        </div>
+                        <div class="contato-input">
+                            <input name="email" id="email" class="input" type="email" placeholder="Email"
+                                data-tipo="email" required>
+                            <label class="contato-label" for="email">Email</label>
+                            <span class="contato-mensagem-erro">Este campo não está válido</span>
+                        </div>
+                        <div class="contato-input">
+                            <input name="assunto" id="assunto" class="input" type="text" placeholder="Assunto"
+                                data-tipo="assunto" required>
+                            <label class="contato-label" for="assunto">Assunto</label>
+                            <span class="contato-mensagem-erro">Este campo não está válido</span>
+                        </div>
+                        <div class="contato-input">
+                            <textarea name="mensagem" id="mensagem" class="input" type="text" placeholder="Mensagem"
+                                data-tipo="mensagem" required></textarea>
+                            <label class="contato-label" for="mensagem">Mensagem</label>
+                            <span class="contato-mensagem-erro">Este campo não está válido</span>
+                        </div>
+                    </fieldset>
+                    <button class="botao">Cadastrar</a>
+                </form>
+            </div>
         </section>
     </main>
     <footer class="containe rodape">
