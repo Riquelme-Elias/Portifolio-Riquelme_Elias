@@ -1,0 +1,43 @@
+.formacao {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.formacao-area {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 2rem 0 0;
+}
+
+.formacao-itens {
+    display: flex;
+    background: var(--branco);
+    padding: 2rem;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.formacao-fig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formacao-uniasselvi {
+    height: 130px;
+    width: auto;
+}
+
+.formacao-alura {
+    width: 400px;
+    height: auto;
+}
+
+.formacao-legens {
+        text-align: center;
+        margin: 0.75rem 0;
+        font-weight: 600;
+}
