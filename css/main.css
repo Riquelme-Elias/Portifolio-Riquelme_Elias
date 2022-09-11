@@ -23,14 +23,23 @@ body {
     text-align: center;
 }
 
-.hobbies {
-    height: 100px;
-}
-
-.formacao {
-    height: 100px;
-}
-
 .experiencia {
     height: 100px;
+}
+
+p {
+    font-weight: 400;
+    padding: 0.5rem 0;
+}
+
+legend {
+    font-weight: 600;
+}
+
+li {
+    list-style: inside;
+}
+
+ul {
+    text-align: left;
 }

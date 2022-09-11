@@ -101,11 +101,65 @@
         </section>
         <section id="section-hobbies" class="containe hobbies">
             <h2 class="titulos-sections">Hobbies</h2>
+            <div class="hobbies-area">
+                <div class="hobbies-itens">
+                    <figure>
+                        <img src="./img/coracao-musica.png" class="hobbies-icons" alt="">
+                        <legend class="hobbies-legens">Ouvir músicas</legend>
+                    </figure>
+                </div>
+                <div class="hobbies-itens">
+                    <figure>
+                        <img src="./img/estante-livros.png" class="hobbies-icons" alt="">
+                        <legend class="hobbies-legens">Ler livros</legend>
+                    </figure>
+                </div>
+                <div class="hobbies-itens">
+                    <figure>
+                        <img src="./img/tenis-corrida.png" class="hobbies-icons" alt="">
+                        <legend class="hobbies-legens">Correr</legend>
+                    </figure>
+                </div>
+                <div class="hobbies-itens">
+                    <figure>
+                        <img src="./img/prato-talheres.png" class="hobbies-icons" alt="">
+                        <legend class="hobbies-legens">Cozinhar</legend>
+                    </figure>
+                </div>
+                <div class="hobbies-itens">
+                    <figure>
+                        <img src="./img/video-play.png" class="hobbies-icons" alt="">
+                        <legend class="hobbies-legens">Assitir séries</legend>
+                    </figure>
+                </div>
+            </div>
 
         </section>
         <section id="section-formacoes" class="containe formacao">
             <h2 class="titulos-sections">Formação Acadêmica</h2>
+            <div class="formacao-area">
+                <div class="formacao-itens">
+                    <figure class="formacao-fig">
+                        <img src="./img/logo-uniasselvi.png" class="formacao-uniasselvi" alt="">
+                        <legend class="formacao-legens">Análise e Desenvolvido de Sistemas - Cursando <p>2022 - 2024</p>
+                        </legend>
+                    </figure>
+                </div>
+                <div class="formacao-itens">
+                    <figure class="formacao-fig">
+                        <img src="./img/alura-logo.jpg" class="formacao-alura" alt="">
+                        <legend class="formacao-legens">
+                            <ul>
+                                <li>Iniciante em Programação</li>
+                                <li>Front End</li>
+                                <li>Java e Orientação a Objetos</li>
+                            </ul>
+                            <p>2022</p>
+                        </legend>
+                    </figure>
+                </div>
 
+            </div>
         </section>
         <section id="section-projetos" class="containe experiencia">
             <h2 class="titulos-sections">Experiencia Proficional</h2>
@@ -117,7 +171,9 @@
                 <form action="" class="contato-formulario flex flex--coluna">
                     <h2 class="titulos-sections">Contato</h2>
                     <fieldset>
-                        <legend class="contato-legenda">Quer entrar em contato?<p>Prencha o formulário e eu entrarei em contato o quanto antes.</p></legend>
+                        <legend class="contato-legenda">Quer entrar em contato?<p>Prencha o formulário e eu entrarei em
+                                contato o quanto antes.</p>
+                        </legend>
                         <div class="contato-input">
                             <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome"
                                 required>
@@ -131,17 +187,19 @@
                             <span class="contato-mensagem-erro">Este campo não está válido</span>
                         </div>
                         <div class="contato-input">
-                            <input name="assunto" id="assunto" class="input input-assunto" type="text" placeholder="Assunto"
-                                data-tipo="assunto" required>
+                            <input name="assunto" id="assunto" class="input input-assunto" type="text"
+                                placeholder="Assunto" data-tipo="assunto" required>
+                            <label class="contato-label" for="assunto">Assunto</label>
                             <span class="contato-mensagem-erro">Este campo não está válido</span>
                         </div>
                         <div class="contato-input">
-                            <textarea name="mensagem" id="mensagem" class="input input-mensagem" type="text" placeholder="Mensagem"
-                                data-tipo="mensagem" required></textarea>
+                            <textarea name="mensagem" id="mensagem" class="input input-mensagem" type="textarea"
+                                placeholder="Mensagem" data-tipo="mensagem" required></textarea>
+                            <label class="contato-label" for="mensagem">Mensagem</label>
                             <span class="contato-mensagem-erro">Este campo não está válido</span>
                         </div>
                     </fieldset>
-                    <button class="botao">Cadastrar</a>
+                    <button class="contato-botao">Enviar mensagem</a>
                 </form>
             </div>
         </section>
