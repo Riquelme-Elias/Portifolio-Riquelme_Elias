@@ -1,0 +1,46 @@
+.experiencia-area-direita {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.experiencia-area-esquerda {
+    display: flex;
+    margin: 2rem 0;
+    flex-direction: row-reverse;
+}
+
+.experiencia-img {
+    width: 70%;
+    height: auto;
+}
+
+.experiencia-titulo {
+    font-weight: 600;
+}
+
+.experiencia-descrissao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: auto;
+    padding: 1rem;
+}
+
+.repositorio {
+    background: transparent;
+    border: 1px solid var(--azul-claro);
+    color: var(--azul-claro);
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+}
+
+.ver-demo {
+    background: var(--azul-claro);
+    border: 1px solid var(--azul-claro);
+    color: var(--branco);
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+}

@@ -23,10 +23,6 @@ body {
     text-align: center;
 }
 
-.experiencia {
-    height: 100px;
-}
-
 p {
     font-weight: 400;
     padding: 0.5rem 0;
@@ -42,4 +38,9 @@ li {
 
 ul {
     text-align: left;
+}
+
+.botao-link {
+    text-decoration: none;
+    margin-right: 1rem;
 }
