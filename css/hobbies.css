@@ -1,0 +1,31 @@
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.hobbies-area {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.hobbies-itens {
+    display: flex;
+    background: var(--branco);
+    height: 140px;
+    width: 140px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.hobbies-icons {
+    width: auto;
+    height: 50px;
+    margin-left: 0.75rem;
+}
+
+.hobbies-legens {
+    margin: 0.75rem 1rem;
+}
