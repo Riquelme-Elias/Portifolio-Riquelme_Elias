@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riquelme-Portifolio</title>
+    <link rel="shortcut icon" href="./img/call_communication_phone_telephone_icon_127214.png">
+    <link rel="apple-touch-icon" href="./img/call_communication_phone_telephone_icon_127214.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;800;900&display=swap"
@@ -51,7 +53,7 @@
                         target="_blank">Instagram ↗️</a>
                     <a href="https://twitter.com/RiquelmeElias5" class="apresentacao-rede" target="_blank">twitter
                         ↗️</a>
-                    <a href="#" class="apresentacao-rede" target="_blank">Curriculo ↗️</a>
+                    <!-- <a href="index.html.pdf#page=1" class="apresentacao-rede" target="_blank">Curriculo ↗️</a> -->
                 </nav>
             </div>
             <img src="https://avatars.githubusercontent.com/u/101952609?v=4" alt="" class="apresentacao-img">
@@ -170,11 +172,13 @@
                         <h2 class="experiencia-titulo">Decodificador de texto</h2>
                         <p>Challenge Alura Codificador</p>
                         <div>
-                            <a href="https://github.com/Riquelme-Elias/Programa-Decodigficador" class="botao-link" target="_blank">
-                                <button class="repositorio">Repositório</button>
+                            <a href="https://github.com/Riquelme-Elias/Programa-Decodigficador" class="botao-link"
+                                target="_blank">
+                                <button type="button" class="repositorio">Repositório</button>
                             </a>
-                            <a href="https://riquelme-elias.github.io/Programa-Decodigficador/" class="botao-link" target="_blank">
-                                <button class="ver-demo">Ver demo</button>
+                            <a href="https://riquelme-elias.github.io/Programa-Decodigficador/" class="botao-link"
+                                target="_blank">
+                                <button type="button" class="ver-demo">Ver demo</button>
                             </a>
                         </div>
                     </div>
@@ -187,8 +191,9 @@
                         <h2 class="experiencia-titulo">Alura Store</h2>
                         <p>Formação Front End - Alura</p>
                         <div>
-                            <a href="https://github.com/Riquelme-Elias/Alura-Store" class="botao-link" target="_blank">
-                                <button class="repositorio">Repositório</button>
+                            <a href="https://github.com/Riquelme-Elias/Alura-Store" class="botao-link" target="_blank"
+                                rel="">
+                                <button type="button" class="repositorio">Repositório</button>
                             </a>
                             <a href="https://riquelme-elias.github.io/Alura-Store/" class="botao-link" target="_blank">
                                 <button type="button" class="ver-demo">Ver demo</button>
@@ -204,7 +209,8 @@
                         <h2 class="experiencia-titulo">Alurinha</h2>
                         <p>Formação Front End - Alura</p>
                         <div>
-                            <a href="https://github.com/Riquelme-Elias/Alurinha" class="botao-link" target="_blank" rel="">
+                            <a href="https://github.com/Riquelme-Elias/Alurinha" class="botao-link" target="_blank"
+                                rel="">
                                 <button type="button" class="repositorio">Repositório</button>
                             </a>
                             <a href="https://riquelme-elias.github.io/Alurinha/" class="botao-link" target="_blank">
@@ -216,41 +222,56 @@
             </div>
         </section>
         <section id="section-contato" class="containe contato">
+            <h2 class="titulos-sections">Contato</h2>
             <div class="contato-divisao">
                 <img class="contato-img" src="./img/call_communication_phone_telephone_icon_127214.png" alt="">
-                <form action="" class="contato-formulario flex flex--coluna">
-                    <h2 class="titulos-sections">Contato</h2>
-                    <fieldset>
-                        <legend class="contato-legenda">Quer entrar em contato?<p>Prencha o formulário e eu entrarei em
-                                contato o quanto antes.</p>
-                        </legend>
-                        <div class="contato-input">
-                            <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome"
-                                required>
-                            <label class="contato-label" for="nome">Nome</label>
-                            <span class="contato-mensagem-erro">Este campo não está válido</span>
-                        </div>
-                        <div class="contato-input">
-                            <input name="email" id="email" class="input" type="email" placeholder="Email"
-                                data-tipo="email" required>
-                            <label class="contato-label" for="email">Email</label>
-                            <span class="contato-mensagem-erro">Este campo não está válido</span>
-                        </div>
-                        <div class="contato-input">
-                            <input name="assunto" id="assunto" class="input input-assunto" type="text"
-                                placeholder="Assunto" data-tipo="assunto" required>
-                            <label class="contato-label" for="assunto">Assunto</label>
-                            <span class="contato-mensagem-erro">Este campo não está válido</span>
-                        </div>
-                        <div class="contato-input">
-                            <textarea name="mensagem" id="mensagem" class="input input-mensagem" type="textarea"
-                                placeholder="Mensagem" data-tipo="mensagem" required></textarea>
-                            <label class="contato-label" for="mensagem">Mensagem</label>
-                            <span class="contato-mensagem-erro">Este campo não está válido</span>
-                        </div>
+                <!-- <form action="https://api.staticforms.xyz/submit" method="post"
+                    class="contato-formulario flex flex--coluna">
+                    <input type="hidden" name="accessKey" value="e676216f-ae42-4045-a8d5-731f030d5d09">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
+
+                    <div class="contato-input">
+                        <input name="name" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome"
+                            required>
+                        <label class="contato-label" for="nome">Nome</label>
+                        <span class="contato-mensagem-erro">Este campo não está válido</span>
+                    </div>
+                    <div class="contato-input">
+                        <input name="email" id="email" class="input" type="email" placeholder="Email" data-tipo="email"
+                            required>
+                        <label class="contato-label" for="email">Email</label>
+                        <span class="contato-mensagem-erro">Este campo não está válido</span>
+                    </div>
+                    <div class="contato-input">
+                        <input name="subject" id="assunto" class="input input-assunto" type="text" placeholder="Assunto"
+                            data-tipo="assunto">
+                        <label class="contato-label" for="assunto">Assunto</label>
+                        <span class="contato-mensagem-erro">Este campo não está válido</span>
+                    </div>
+                    <div class="contato-input">
+                        <textarea name="message" id="mensagem" class="input input-mensagem" type="textarea"
+                            placeholder="Mensagem" data-tipo="mensagem"></textarea>
+                        <label class="contato-label" for="mensagem">Mensagem</label>
+                        <span class="contato-mensagem-erro">Este campo não está válido</span>
+                    </div>
                     </fieldset>
-                    <button class="contato-botao">Enviar mensagem</a>
-                </form>
+                    <a><button type="submit" value="submit" class="contato-botao">Enviar mensagem</button></a>
+                </form> -->
+                <div class="contato-email-botao">
+                    <a href="mailto:riquelmeelias0604@gmail.com" class="botao-link">
+                        <button class="butao-email">
+                            <div class="svg-wrapper-1">
+                              <div class="svg-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                  <path fill="none" d="M0 0h24v24H0z"></path>
+                                  <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <span>Enviar Email</span>
+                          </button>
+                    </a>
+                </div>
             </div>
         </section>
     </main>

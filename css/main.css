@@ -13,7 +13,7 @@ body {
     color: var(--cinza-escuro);
 }
 
-.containe{
+.containe {
     padding: 0 5rem;
 }
 
@@ -43,4 +43,28 @@ ul {
 .botao-link {
     text-decoration: none;
     margin-right: 1rem;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    html{
+        font-size: 14px;
+    }
+
+    .containe {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    html{
+        font-size: 14px;
+    }
+
+    .containe {
+        padding: 0 1rem;
+    }
 }

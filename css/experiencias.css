@@ -34,6 +34,7 @@
     cursor: pointer;
     width: 100px;
     height: 40px;
+    margin-bottom: 1rem;
 }
 
 .ver-demo {
@@ -43,4 +44,19 @@
     cursor: pointer;
     width: 100px;
     height: 40px;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .experiencia-area-direita, .experiencia-area-esquerda {
+        flex-direction: column;
+    }
+
+    .experiencia-img {
+        width: 100%;
+    }
+
+    .experiencia-descrissao {
+        width: 90%;
+    }
 }
